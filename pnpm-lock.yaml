@@ -34,6 +34,12 @@ devDependencies:
   eslint:
     specifier: ^8.53.0
     version: 8.53.0
+  husky:
+    specifier: ^8.0.3
+    version: 8.0.3
+  nano-staged:
+    specifier: ^0.8.0
+    version: 0.8.0
   nuxt:
     specifier: ^3.8.1
     version: 3.8.1(@types/node@20.8.10)(eslint@8.53.0)(rollup@3.29.4)(typescript@5.2.2)(vite@4.5.0)
@@ -4188,6 +4194,12 @@ packages:
     engines: {node: '>=16.17.0'}
     dev: true
 
+  /husky@8.0.3:
+    resolution: {integrity: sha512-+dQSyqPh4x1hlO1swXBiNb2HzTDN1I2IGLQx1GrBuiqFJfoMrnZWwVmatvSiO+Iz8fBUnf+lekwNo4c2LlXItg==}
+    engines: {node: '>=14'}
+    hasBin: true
+    dev: true
+
   /iconv-lite@0.6.3:
     resolution: {integrity: sha512-4fCk79wshMdzMp2rH06qWrJE4iolqLhCUH+OiuIgU++RB0+94NlDL81atO7GX55uUKueo0txHNtvEyI6D7WdMw==}
     engines: {node: '>=0.10.0'}
@@ -4969,6 +4981,14 @@ packages:
 
   /ms@2.1.3:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
+    dev: true
+
+  /nano-staged@0.8.0:
+    resolution: {integrity: sha512-QSEqPGTCJbkHU2yLvfY6huqYPjdBrOaTMKatO1F8nCSrkQGXeKwtCiCnsdxnuMhbg3DTVywKaeWLGCE5oJpq0g==}
+    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
+    hasBin: true
+    dependencies:
+      picocolors: 1.0.0
     dev: true
 
   /nanoid@3.3.7:
